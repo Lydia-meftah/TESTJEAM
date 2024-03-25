@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CV for Analysis</title>
+</head>
+<body>
+    <h1>CV Analysis Tool</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="cvUpload">Upload your CV:</label>
+        <input type="file" id="cvUpload" name="cvUpload" accept=".pdf, .docx">
+        <button type="submit">Analyze CV</button>
+    </form>
+</body>
+</html>
